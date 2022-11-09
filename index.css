@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h1 {
+    opacity: 80%;
+}
+
+p {
+    opacity: 60%
+}
