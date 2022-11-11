@@ -100,10 +100,11 @@ hr {
 
 }
 
-#reductoTitle {
+.projectTitle {
     font-size: 4em;
     margin-bottom: 2%;
     text-align: center;
+    margin-top: 10%
 }
 
 /* Slideshow container */
@@ -117,6 +118,11 @@ hr {
   .mySlides {
     display: none;
   }
+
+    /* Hide the images by default */
+    .UnimySlides {
+      display: none;
+    }
   
   /* Next & previous buttons */
   .prev, .next {
@@ -178,6 +184,21 @@ hr {
   }
   
   .active, .dot:hover {
+    background-color:#dfbd69;
+  }
+
+  .Unidot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .Unidot:hover {
     background-color:#dfbd69;
   }
   
